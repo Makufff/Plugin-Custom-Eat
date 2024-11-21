@@ -1,0 +1,22 @@
+name: Custom-Eat
+version: '1.0-SNAPSHOT'
+main: org.customEat.CustomEat
+api-version: '1.21'
+authors: [ Makufff ]
+description: Plugin สำหรับสุ่มอาหารที่สามารถกินได้ในแต่ละสัปดาห์
+
+commands:
+  eat-info:
+    description: แสดงรายการอาหารที่สามารถกินได้ในสัปดาห์นี้
+    usage: "§c[Custom-Eat] ใช้งาน: /<command>"
+    aliases: [ei, foodinfo]
+  reload-food:
+    description: Reload plugin Custom-Eat
+    usage: "§c[Custom-Eat] ใช้งาน: /<command>"
+    permission: customeat.reload
+    aliases: [rf]
+
+permissions:
+  customeat.reload:
+    description: อนุญาตให้ใช้คำสั่ง /reload-food
+    default: op

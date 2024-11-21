@@ -1,0 +1,14 @@
+# Custom-Eat Plugin Configuration
+
+# จำนวนอาหารที่จะสุ่มต่อสัปดาห์
+foods-per-week: 5
+
+# ระยะเวลาในการสุ่มใหม่ (หน่วยเป็นวัน)
+randomize-interval: 7
+
+# ข้อความแจ้งเตือน
+messages:
+  prefix: '§a[Custom-Eat] §f'
+  cannot-eat: '§cคุณไม่สามารถกินอาหารชนิดนี้ได้ในสัปดาห์นี้!'
+  reload-success: 'Reload plugin สำเร็จ!'
+  no-permission: '§cคุณไม่มีสิทธิ์ใช้คำสั่งนี้!'
